@@ -6,18 +6,11 @@
 int main(void)
 {
 char c;
-int d;
-c = 'a';
-d = 0;
+c = 'z';
 while
-(d < 10) {
-putchar(d + '0');
-d++;
-}
-while
-(c <= 'f') {
+(c >= 'a') {
 putchar(c);
-c++;
+c--;
 }
 putchar('\n');
 return (0);
